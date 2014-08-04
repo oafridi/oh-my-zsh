@@ -9,6 +9,9 @@ alias dev='cd /Users/oafridi/dev/'
 alias mr='cd /Users/oafridi/dev/monorail/'
 alias matchnurse='cd /Users/oafridi/dev/ror_projects/matchnurse_latest'
 
+alias vd='vagrant destroy'
+alias vu='vagrant up'
+
 # atlas aliases
 
 alias acl='atlas-clean'
@@ -22,7 +25,7 @@ alias arc='atlas-run-standalone --product confluence --version'
 alias rma='rm -rf amps-standalone/'
 
 #get vendor contacts file
-alias get_vend='scp oafridi@mpac-mongo-1.prod.inf.atlassian.com:~/filename.csv ~/Documents/vendor_contacts/'
+alias get_vend='scp oafridi@mpac-mongo-1.prod.inf.atlassian.com:~/filename.csv . '
 
 # mpac prod servers
 
