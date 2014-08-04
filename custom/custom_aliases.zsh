@@ -1,5 +1,7 @@
 # Add yourself some shortcuts to projects you often work on
 
+alias calias='subl ~/.oh-my-zsh/custom/custom_aliases.zsh'
+
 alias dl='cd ~/Downloads'
 alias jend='sudo ./stop-jira.sh'
 alias isrun='c; ps -ax|grep jira'
